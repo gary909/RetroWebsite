@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: #1E261F;
+    font-family: 'VT323', monospace;
+    color: #00FF33;
+    margin: 20px;
+    text-shadow: 0px 0px 10px #00FF33;
+}
+
+::selection { /*This removes blur and glow of text when highlighted*/
+    background: #0080FF;
+    text-shadow: none;
+}
+
+  
