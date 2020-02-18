@@ -1,9 +1,9 @@
 body {
-    margin: 0;
+    /* margin: 0; */
     background-color: #1E261F;
     font-family: 'VT323', monospace;
     color: #00FF33;
-    margin: 20px;
+    margin-left: 20px;
     text-shadow: 0px 0px 10px #00FF33;
     /* display: flex; */
 }
@@ -21,24 +21,24 @@ body {
    background-color: none;
 }
 
-  /*##################################################################################################*/
+  /*#########################################Typing Effect Below#############################################*/
 
   .css-typing p {
-    border-right: .15em solid orange;
+    border-right: .50em solid #00FF33;
     font-size: 22px;
     white-space: nowrap;
     overflow: hidden;
   }
   .css-typing p:nth-child(1) {
-    width: 7.3em;
-    -webkit-animation: type 2s steps(40, end);
-    animation: type 2s steps(40, end);
+    width: 12em;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
   
   .css-typing p:nth-child(2) {
-    width: 11.5em;
+    width: 12em;
     opacity: 0;
     -webkit-animation: type2 2s steps(40, end);
     animation: type2 2s steps(40, end);
@@ -47,14 +47,26 @@ body {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-  
+
   .css-typing p:nth-child(3) {
-    width: 7.3em;
+    width: 11.5em;
     opacity: 0;
-    -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
-    animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
     -webkit-animation-delay: 4s;
     animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  
+  .css-typing p:nth-child(4) {
+    width: 7.3em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type3 2s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
@@ -64,7 +76,7 @@ body {
       width: 0;
     }
     99.9% {
-      border-right: .15em solid orange;
+      border-right: .50em solid #00FF33;
     }
     100% {
       border: none;
@@ -76,7 +88,7 @@ body {
       width: 0;
     }
     99.9% {
-      border-right: .15em solid orange;
+      border-right: .50em solid #00FF33;
     }
     100% {
       border: none;
@@ -91,7 +103,7 @@ body {
       opacity: 1;
     }
     99.9% {
-      border-right: .15em solid orange;
+      border-right: .50em solid #00FF33;
     }
     100% {
       opacity: 1;
@@ -107,7 +119,7 @@ body {
       opacity: 1;
     }
     99.9% {
-      border-right: .15em solid orange;
+      border-right: .50em solid #00FF33;
     }
     100% {
       opacity: 1;

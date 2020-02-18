@@ -1,0 +1,1 @@
+Have 2 home pages - one with the loading text then another saying ' reconnecting to home-server' etc
