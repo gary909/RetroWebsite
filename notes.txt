@@ -1,1 +1,7 @@
 Have 2 home pages - one with the loading text then another saying ' reconnecting to home-server' etc
+
+At start have loading screech from;
+https://www.youtube.com/watch?v=ckc6XSSh52w
+
+Then every other pages spectrum typing noise from;
+
