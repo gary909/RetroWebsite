@@ -29,6 +29,16 @@ body {
     white-space: nowrap;
     overflow: hidden;
   }
+
+  .css-typing2 h2 {
+    border-right: .50em solid #00FF33;
+    font-size: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+
+
   .css-typing p:nth-child(1) {
     width: 15em;
     -webkit-animation: type2 1s steps(40, end);
