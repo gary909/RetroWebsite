@@ -28,12 +28,16 @@ a {
   background-color: none;
 }
 
+/* Center the text and put it in a box*/
 .center {
   margin: auto;
   width: 50%;
   border: 3px solid green;
   padding: 10px;
+  min-width: 320px;
+  max-width: 40%;
 }
+
 
 /*#########################################Typing Effect Below#############################################*/
 
@@ -160,6 +164,7 @@ a {
   animation-fill-mode: forwards;
 }
 
+/*number 6 shop */
 .css-typing p:nth-child(11) {
   width: 3em;
   opacity: 0;
@@ -171,13 +176,14 @@ a {
   animation-fill-mode: forwards;
 }
 
+/*Final hashes */
 .css-typing p:nth-child(12) {
-  width: 5em;
+  width: 15em;
   opacity: 0;
   -webkit-animation: type2 0s steps(40, end);
-  animation: type2 0s steps(40, end);
-  -webkit-animation-delay: 7.5s;
-  animation-delay: 7.5s;
+  animation: type2 1s steps(40, end);
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
@@ -193,8 +199,8 @@ a {
   animation-fill-mode: forwards;
 }
 
-
-.css-typing p:nth-child(14) {
+/*Not used*/
+/* .css-typing p:nth-child(14) {
   width: 15em;
   opacity: 0;
   -webkit-animation: type2 1s steps(40, end), blink .5s step-end infinite alternate;
@@ -203,7 +209,7 @@ a {
   animation-delay: 8.5s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-}
+} */
 
 @keyframes type {
   0% {
