@@ -28,6 +28,8 @@ a {
   background-color: none;
 }
 
+
+
 /* Center the text and put it in a box*/
 .center {
   margin: auto;
@@ -63,20 +65,13 @@ a {
 
 /*#########################################Typing Effect Below#############################################*/
 
+/*first line starts at zero ///// */
 .css-typing p {
   border-right: .50em solid #00FF33;
   font-size: 22px;
   white-space: nowrap;
   overflow: hidden;
 }
-
-.css-typing2 h2 {
-  border-right: .50em solid #00FF33;
-  font-size: 22px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 
 
 .css-typing p:nth-child(1) {
