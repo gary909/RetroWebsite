@@ -71,7 +71,7 @@ a {
 }
 
 .css-typing p:nth-child(2) {
-  width: 12em;
+  width: 11.4em;
   opacity: 0;
   -webkit-animation: type2 1.5s steps(40, end);
   animation: type2 1.5s steps(40, end);
@@ -82,7 +82,7 @@ a {
 }
 
 .css-typing p:nth-child(3) {
-  width: 11.5em;
+  width: 8.5em;
   opacity: 0;
   -webkit-animation: type2 1.5s steps(40, end);
   animation: type2 1.5s steps(40, end);
