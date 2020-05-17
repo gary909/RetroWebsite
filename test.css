@@ -1,11 +1,11 @@
 .topnav {
     color: green;
     /*justify-content: space-evenly;*/
-  }
-  
-  /* This is the index pages you return to because it loads quicker */
-  
-  body {
+}
+
+/* This is the index pages you return to because it loads quicker */
+
+body {
     /* margin: 0; */
     background-color: #1E261F;
     font-family: 'VT323', monospace;
@@ -166,7 +166,7 @@
   }
   /*Link to text */
   .css-typing p:nth-child(9) {
-    width: 8em;
+    width: 7em;
     opacity: 0;
     -webkit-animation: type2 0.2s steps(40, end);
     animation: type2 0.2s steps(40, end);

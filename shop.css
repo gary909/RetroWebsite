@@ -1,322 +1,326 @@
+.topnav {
+  color: green;
+  /*justify-content: space-evenly;*/
+}
+
 /* This is the index pages you return to because it loads quicker */
 
 body {
-    /* margin: 0; */
-    background-color: #1E261F;
-    font-family: 'VT323', monospace;
-    color: #00FF33;
-    margin-left: 20px;
-    text-shadow: 0px 0px 10px #00FF33;
-    /* display: flex; */
+  /* margin: 0; */
+  background-color: #1E261F;
+  font-family: 'VT323', monospace;
+  color: #00FF33;
+  margin-left: 20px;
+  text-shadow: 0px 0px 10px #00FF33;
+  /* display: flex; */
+}
+
+::selection { /*This removes blur and glow of text when highlighted*/
+  background: #0080FF;
+  text-shadow: none;
+}
+
+.link /*Make the links match the rest of the site*/
+{
+ /* color:white; */
+ /* text-shadow: 0px 0px 10px white; */
+ text-decoration: none; 
+ background-color: none;
+}
+
+a {
+  color: #00FF33;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  text-decoration: none; 
+  background-color: none;
+}
+
+
+
+/* Center the text and put it in a box*/
+.center {
+  margin: auto;
+  /* width: 50%; */
+  border: 3px solid green;
+  /* box-shadow: 0px 0px 10px green; */
+  padding: 10px;
+  min-width: 320px;
+  max-width: 40%;
+}
+
+/* Centered without box*/
+.center2 {
+  margin: auto;
+  width: 40%;
+  /* border: 3px solid green; */
+  padding: 10px;
+  min-width: 320px;
+  /* max-width: 40%; */
+}
+
+/* Left Margin without box*/
+.headline {
+  text-align: center;
+}
+
+
+
+
+/*#########################################Typing Effect Below#############################################*/
+
+/*set up typing effect here */
+.css-typing p {
+  border-right: .50em solid #00FF33;
+  font-size: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/*first line of typing effect starts here */
+/* empty line */
+.css-typing p:nth-child(1) {
+  width: 1em;
+  -webkit-animation: type2 0s steps(40, end);
+  animation: type2 0s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+/* Back */
+.css-typing p:nth-child(2) {
+  width: 2em;
+  opacity: 0;
+  -webkit-animation: type2 0.1s steps(40, end);
+  animation: type2 0.1s steps(40, end);
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* //// line */
+.css-typing p:nth-child(3) {
+  width: 14em;
+  opacity: 0;
+  -webkit-animation: type2 0.3s steps(40, end);
+  animation: type2 0.3s steps(40, end);
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/* shop */
+.css-typing p:nth-child(4) {
+  width: 14em;
+  opacity: 0;
+  -webkit-animation: type2 0.1s steps(40, end);
+  animation: type2 0.1s steps(40, end);
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/*line //// */
+.css-typing p:nth-child(5) {
+  width: 14em;
+  opacity: 0;
+  -webkit-animation: type2 0.3s steps(40, end);
+  animation: type2 0.3s steps(40, end);
+  -webkit-animation-delay: 0.6s;
+  animation-delay: 0.6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+/*blank */
+.css-typing p:nth-child(6) {
+  width: 3em;
+  opacity: 0;
+  -webkit-animation: type2 0.1s steps(40, end);
+  animation: type2 0.1s steps(40, end);
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+/*blank */
+.css-typing p:nth-child(7) {
+  width: 3em;
+  opacity: 0;
+  -webkit-animation: type2 0.2s steps(40, end);
+  animation: type2 0.2s steps(40, end);
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+/*blank */
+.css-typing p:nth-child(8) {
+  width: 3em;
+  opacity: 0;
+  -webkit-animation: type2 0.2s steps(40, end);
+  animation: type2 0.2s steps(40, end);
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+/*Link to text */
+.css-typing p:nth-child(9) {
+  width: 7em;
+  opacity: 0;
+  -webkit-animation: type2 0.2s steps(40, end);
+  animation: type2 0.2s steps(40, end);
+  -webkit-animation-delay: 0.9s;
+  animation-delay: 0.9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+/*blank */
+.css-typing p:nth-child(10) {
+  width: 4.4em;
+  opacity: 0;
+  -webkit-animation: type2 0.2s steps(40, end);
+  animation: type2 0.2s steps(40, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/*number 6 shop */
+.css-typing p:nth-child(11) {
+  width: 3em;
+  opacity: 0;
+  -webkit-animation: type2 0.2s steps(40, end);
+  animation: type2 0.2s steps(40, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/*Final hashes */
+.css-typing p:nth-child(12) {
+  width: 15em;
+  opacity: 0;
+  -webkit-animation: type2 0.3s steps(40, end);
+  animation: type2 0.3s steps(40, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(13) {
+  width: 15em;
+  opacity: 0;
+  -webkit-animation: type2 0.3s steps(40, end);
+  animation: type2 0.3s steps(40, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+/*last //////*/
+ .css-typing p:nth-child(14) {
+  width: 13.7em;
+  opacity: 0;
+  -webkit-animation: type2 0.2s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 0.2s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
   }
-  
-  ::selection { /*This removes blur and glow of text when highlighted*/
-    background: #0080FF;
-    text-shadow: none;
-  }
-  
-  .link /*Make the links match the rest of the site*/
-  {
-   /* color:white; */
-   /* text-shadow: 0px 0px 10px white; */
-   text-decoration: none; 
-   background-color: none;
-  }
-  
-  a {
-    color: #00FF33;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    text-decoration: none; 
-    background-color: none;
-  }
-  
-  
-  
-  /* Center the text and put it in a box*/
-  .center {
-    margin: auto;
-    /* width: 50%; */
-    border: 3px solid green;
-    /* box-shadow: 0px 0px 10px green; */
-    padding: 10px;
-    min-width: 320px;
-    max-width: 40%;
-  }
-  
-  /* Centered without box*/
-  .center2 {
-    margin: auto;
-    width: 40%;
-    /* border: 3px solid green; */
-    padding: 10px;
-    min-width: 320px;
-    /* max-width: 40%; */
-  }
-  
-  /* Left Margin without box*/
-  .headline {
-    text-align: center;
-  }
-  
-  
-  
-  
-  /*#########################################Typing Effect Below#############################################*/
-  
-  /*set up typing effect here */
-  .css-typing p {
+  99.9% {
     border-right: .50em solid #00FF33;
-    font-size: 22px;
-    white-space: nowrap;
-    overflow: hidden;
   }
-  /*first line of typing effect starts here */
-  /* empty line */
-  .css-typing p:nth-child(1) {
-    width: 1em;
-    -webkit-animation: type2 0s steps(40, end);
-    animation: type2 0s steps(40, end);
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  100% {
+    border: none;
   }
-  /* Back */
-  .css-typing p:nth-child(2) {
-    width: 2em;
-    opacity: 0;
-    -webkit-animation: type2 0.1s steps(40, end);
-    animation: type2 0.1s steps(40, end);
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
   }
-  
-  /* //// line */
-  .css-typing p:nth-child(3) {
-    width: 14em;
-    opacity: 0;
-    -webkit-animation: type2 0.3s steps(40, end);
-    animation: type2 0.3s steps(40, end);
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  99.9% {
+    border-right: .50em solid #00FF33;
   }
-  
-  /* shop */
-  .css-typing p:nth-child(4) {
-    width: 14em;
-    opacity: 0;
-    -webkit-animation: type2 0.1s steps(40, end);
-    animation: type2 0.1s steps(40, end);
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  100% {
+    border: none;
   }
-  
-  /*line //// */
-  .css-typing p:nth-child(5) {
-    width: 14em;
-    opacity: 0;
-    -webkit-animation: type2 0.3s steps(40, end);
-    animation: type2 0.3s steps(40, end);
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
   }
-  /*blank */
-  .css-typing p:nth-child(6) {
-    width: 3em;
-    opacity: 0;
-    -webkit-animation: type2 0.1s steps(40, end);
-    animation: type2 0.1s steps(40, end);
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  1% {
+    opacity: 1;
   }
-  /*blank */
-  .css-typing p:nth-child(7) {
-    width: 3em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  99.9% {
+    border-right: .50em solid #00FF33;
   }
-  /*blank */
-  .css-typing p:nth-child(8) {
-    width: 3em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  100% {
+    opacity: 1;
+    border: none;
   }
-  /*Link to text */
-  .css-typing p:nth-child(9) {
-    width: 7em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
-    -webkit-animation-delay: 0.9s;
-    animation-delay: 0.9s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
   }
-  /*blank */
-  .css-typing p:nth-child(10) {
-    width: 4.4em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  1% {
+    opacity: 1;
   }
-  
-  /*number 6 shop */
-  .css-typing p:nth-child(11) {
-    width: 3em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  99.9% {
+    border-right: .50em solid #00FF33;
   }
-  
-  /*Final hashes */
-  .css-typing p:nth-child(12) {
-    width: 15em;
-    opacity: 0;
-    -webkit-animation: type2 0.3s steps(40, end);
-    animation: type2 0.3s steps(40, end);
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  100% {
+    opacity: 1;
+    border: none;
   }
-  
-  .css-typing p:nth-child(13) {
-    width: 15em;
-    opacity: 0;
-    -webkit-animation: type2 0.3s steps(40, end);
-    animation: type2 0.3s steps(40, end);
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
   }
-  
-  /*last //////*/
-   .css-typing p:nth-child(14) {
-    width: 13.7em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end), blink .5s step-end infinite alternate;
-    animation: type3 0.2s steps(40, end), blink .5s step-end infinite alternate;
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+  1% {
+    opacity: 1;
   }
-  
-  @keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .50em solid #00FF33;
-    }
-    100% {
-      border: none;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  @-webkit-keyframes type {
-    0% {
-      width: 0;
-    }
-    99.9% {
-      border-right: .50em solid #00FF33;
-    }
-    100% {
-      border: none;
-    }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
   }
-  
-  @keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .50em solid #00FF33;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
+  1% {
+    opacity: 1;
   }
-  
-  @-webkit-keyframes type2 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    99.9% {
-      border-right: .50em solid #00FF33;
-    }
-    100% {
-      opacity: 1;
-      border: none;
-    }
+  100% {
+    opacity: 1;
   }
-  
-  @keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
-  
-  @-webkit-keyframes type3 {
-    0% {
-      width: 0;
-    }
-    1% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
   }
-  
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  @-webkit-keyframes blink {
-    50% {
-      border-color: tranparent;
-    }
-  }
-  
+}
