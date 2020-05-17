@@ -84,9 +84,9 @@ body {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-  /* Back */
+  /* Artists */
   .css-typing p:nth-child(2) {
-    width: 2em;
+    width: 3em;
     opacity: 0;
     -webkit-animation: type2 0.1s steps(40, end);
     animation: type2 0.1s steps(40, end);
@@ -96,21 +96,44 @@ body {
     animation-fill-mode: forwards;
   }
   
-  /* //// line */
+  /* empty line */
   .css-typing p:nth-child(3) {
-    width: 14em;
+    width: 0em;
     opacity: 0;
-    -webkit-animation: type2 0.3s steps(40, end);
-    animation: type2 0.3s steps(40, end);
+    -webkit-animation: type2 0.1s steps(40, end);
+    animation: type2 0.1s steps(40, end);
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
   
-  /* shop */
+  /* /// line */
   .css-typing p:nth-child(4) {
     width: 14em;
+    opacity: 0;
+    -webkit-animation: type2 0.3s steps(40, end);
+    animation: type2 0.3s steps(40, end);
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  /*empty line/ */
+  .css-typing p:nth-child(5) {
+    width: 0em;
+    opacity: 0;
+    -webkit-animation: type2 0.1s steps(40, end);
+    animation: type2 0.1s steps(40, end);
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  /*avery isles */
+  .css-typing p:nth-child(6) {
+    width: 5em;
     opacity: 0;
     -webkit-animation: type2 0.1s steps(40, end);
     animation: type2 0.1s steps(40, end);
@@ -119,21 +142,20 @@ body {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-  
-  /*line //// */
-  .css-typing p:nth-child(5) {
-    width: 14em;
+  /*Otto Van Vehousen */
+  .css-typing p:nth-child(7) {
+    width: 7em;
     opacity: 0;
-    -webkit-animation: type2 0.3s steps(40, end);
-    animation: type2 0.3s steps(40, end);
+    -webkit-animation: type2 0.1s steps(40, end);
+    animation: type2 0.1s steps(40, end);
     -webkit-animation-delay: 0.6s;
     animation-delay: 0.6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-  /*blank */
-  .css-typing p:nth-child(6) {
-    width: 3em;
+  /*Gaju */
+  .css-typing p:nth-child(8) {
+    width: 7em;
     opacity: 0;
     -webkit-animation: type2 0.1s steps(40, end);
     animation: type2 0.1s steps(40, end);
@@ -142,94 +164,109 @@ body {
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-  /*blank */
-  .css-typing p:nth-child(7) {
-    width: 3em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-  /*blank */
-  .css-typing p:nth-child(8) {
-    width: 3em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
-    -webkit-animation-delay: 0.7s;
-    animation-delay: 0.7s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-  /*Link to text */
+  /*Congruent polygons */
   .css-typing p:nth-child(9) {
-    width: 7em;
+    width: 7.5em;
     opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
+    -webkit-animation: type2 0.1s steps(40, end);
+    animation: type2 0.1s steps(40, end);
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  /*EE */
+  .css-typing p:nth-child(10) {
+    width: 2em;
+    opacity: 0;
+    -webkit-animation: type2 0.1s steps(40, end);
+    animation: type2 0.1s steps(40, end);
     -webkit-animation-delay: 0.9s;
     animation-delay: 0.9s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
-  /*blank */
-  .css-typing p:nth-child(10) {
-    width: 4.4em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
   
-  /*number 6 shop */
+  /*Steffan Von Schwarzklingel */
   .css-typing p:nth-child(11) {
-    width: 3em;
+    width: 10em;
     opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end);
-    animation: type2 0.2s steps(40, end);
+    -webkit-animation: type2 0.1s steps(40, end);
+    animation: type2 0.1s steps(40, end);
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
   
-  /*Final hashes */
+  /*Distant Stars */
   .css-typing p:nth-child(12) {
-    width: 15em;
+    width: 5.5em;
     opacity: 0;
-    -webkit-animation: type2 0.3s steps(40, end);
-    animation: type2 0.3s steps(40, end);
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
+    -webkit-animation: type2 0.1s steps(40, end);
+    animation: type2 0.1s steps(40, end);
+    -webkit-animation-delay: 1.1s;
+    animation-delay: 1.1s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
   
+  /*Eternal Tones */
   .css-typing p:nth-child(13) {
-    width: 15em;
+    width: 5.5em;
     opacity: 0;
-    -webkit-animation: type2 0.3s steps(40, end);
-    animation: type2 0.3s steps(40, end);
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-  
-  /*last //////*/
-   .css-typing p:nth-child(14) {
-    width: 13.7em;
-    opacity: 0;
-    -webkit-animation: type2 0.2s steps(40, end), blink .5s step-end infinite alternate;
-    animation: type3 0.2s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation: type2 0.1s steps(40, end);
+    animation: type2 0.1s steps(40, end);
     -webkit-animation-delay: 1.2s;
     animation-delay: 1.2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+    /*closed contours */
+    .css-typing p:nth-child(14) {
+        width: 8em;
+        opacity: 0;
+        -webkit-animation: type2 0.1s steps(40, end);
+        animation: type2 0.1s steps(40, end);
+        -webkit-animation-delay: 1.3s;
+        animation-delay: 1.3s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+
+    /*gradians */
+    .css-typing p:nth-child(15) {
+        width: 5.5em;
+        opacity: 0;
+        -webkit-animation: type2 0.1s steps(40, end);
+        animation: type2 0.1s steps(40, end);
+        -webkit-animation-delay: 1.4s;
+        animation-delay: 1.4s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+
+      /*empty */
+    .css-typing p:nth-child(16) {
+        width: 0em;
+        opacity: 0;
+        -webkit-animation: type2 0.1s steps(40, end);
+        animation: type2 0.1s steps(40, end);
+        -webkit-animation-delay: 1.5s;
+        animation-delay: 1.5s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+      }
+  
+  /*last //////*/
+   .css-typing p:nth-child(17) {
+    width: 13.7em;
+    opacity: 0;
+    -webkit-animation: type2 0.3s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type3 0.3s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
